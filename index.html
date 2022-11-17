@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <div class="logo">
+                <img src="/spotify.svg" alt="">
+            </div>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <div class="songs">
+                <img src="/pictures/close_eyes.jpg" class="song_pic" alt="">
+                <h2>Close eyes</h2>
+                <img src="/play-fill.svg" alt="image" id="0" class="play">
+            </div>
+            <div class="songs">
+                <img src="/pictures/dandelions.jpg" alt="" class="song_pic">
+                <h2>Dandelions</h2>
+                <img src="/play-fill.svg" alt="image"  id="1" class="play">
+            </div>
+            <div class="songs">
+                <img src="/pictures/until i found you.jpg" alt="" class="song_pic">
+                <h2>until i found you</h2>
+                <img src="/play-fill.svg" alt="image" id="2" class="play">
+            </div>
+            <div class="songs">
+                <img src="/pictures/pasoori.jpg" alt="" class="song_pic">
+                <h2>Pasoori</h2>
+                <img src="/play-fill.svg" alt="image" id="3" class="play">
+            </div>
+        </div>
+    </div>
+
+
+    <div id="songName">
+        <img src="/58kL.gif" id="gif" alt="">
+        <span>-  -  -  -  -  -  -  -  -  - </span>
+    </div>
+    <div class="buttom">
+        <div class="toggle">
+            <input type="range" value="0" id="tog">
+        </div>
+        <div class="player">
+            <img src="/caret-left-square.svg" alt="" id="previous" class="next_btn">
+            <img src="/play-fill.svg" alt="" id="playBtn">
+            <img src="/caret-right-square.svg" alt="" id="next" class="next_btn">
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

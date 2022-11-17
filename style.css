@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+    background-image: url("/wp9830610-spotify-desktop-wallpapers.jpg");
+    background-size:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.logo img{
+    width: 40px;
+    margin: 0px 5px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    padding: 5px;
+}
+nav{
+    margin-bottom: 50px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: left;
+}
+nav ul li{
+    padding: 20px 5px;
+    list-style: none;
+}
+
+
+
+.play{
+    cursor: pointer;
+}
+ 
+.song_pic{
+    width: 50px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.87);
+    height: 35vh;
+    padding-top:10px ;
+    width: 40vw;
+    margin: auto;
+    border-radius: 10px;
+}
+.songs{
+    background-color: rgba(255, 255, 255, 0.911);
+    color: black;
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.buttom{
+    height: 20vh;
+    width: 80vw;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.87);
+    border-radius: 10px;
+}
+.buttom span{
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.buttom .toggle {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.toggle input{
+    width: 50vw;
+    background-color: greenyellow;
+}
+
+.player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player #playBtn{
+    background-color: white;
+    width: 50px;
+    border-radius: 50px;
+}
+.next_btn{
+    width: 50px;
+    background-color: white;
+    margin: 0px 30px;
+}
+#tog{
+    cursor: pointer;
+}
+
+
+#songName{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    right: 25px;
+}
+#songName span{
+    color: black;
+    background-color: greenyellow;
+    padding: 20px 70px;
+    border-radius: 39px;
+    visibility: hidden;
+    border:5px solid black; 
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+#gif{
+    height: 50px;
+    position: relative; 
+    border-radius: 25px;
+    top: 18px;
+    left: 65px;
+    visibility: hidden;
+}
+
+
+
+
+@media (max-width:894px) {
+    .container{
+        width: 60vw;
+    }
+    .buttom{
+        width: 93vw;
+    }
+}
+@media (max-width:607px) {
+    .container{
+        width: 80vw;
+    }
+}
+@media (max-width:405px) {
+    .container{
+        width: 90vw;
+        font-size: 0.8rem;
+    }
+} 
+@media (max-width:280px) {
+    .container{
+        width: 96vw;
+        font-size: 0.8rem;
+    }
+    
+} 
